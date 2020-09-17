@@ -8,6 +8,13 @@
     <link href="./style/header.css" rel="stylesheet" />
     <link href="./style/footer.css" rel="stylesheet" />
     <link href="./style/mainLayout.css" rel="stylesheet" />
+    <link href="./style/settings.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -16,43 +23,72 @@
     <main>
       <div class="row1">
         <div class="profile">
-          <div>avartar</div>
-          <div>
-            <div>유저 닉네임</div>
-            <p>아이디</p>
+          <div class="profile_box">
+            <i class="fas avartar fa-3x fa-user"></i>
+            <div>
+              <div>유저 닉네임</div>
+              <p>아이디</p>
+            </div>
           </div>
+          <button class="profile_btn" type="submit">
+            <i class="fas fa-3x fa-chevron-right"></i>
+          </button>
         </div>
-        <button type="submit">></button>
       </div>
       <div class="row2">
         <div class="prefer_type">선호 그룹 유형</div>
-        <div>얼리버드 [리스트 주고 선택할 수 있도록]</div>
-        <button type="submit">></button>
+        <div>
+          <select name="preference" id="preference">
+            <option value="preference">얼리버드</option>
+            <option value="preference">점심</option>
+            <option value="preference">올빼미</option>
+          </select>
+        </div>
+        <button class="profile_btn" type="submit">
+          <i class="fas fa-3x fa-chevron-right"></i>
+        </button>
       </div>
       <div class="row3">
         <div>푸쉬 알림</div>
-        <div>ON / OFF 토클버튼</div>
+        <div><i class="fas fa-3x fa-toggle-on"></i></div>
       </div>
     </main>
     <footer>
       <ul class="menu_box">
-        <li class="menu">
-          <div>아이콘</div>
-          <div>퍼즐</div>
-        </li>
-        <li class="menu">
-          <div>아이콘</div>
-          <div>그룹 목록</div>
-        </li>
-        <li class="menu">
-          <div>아이콘</div>
-          <div>참여 그룹</div>
-        </li>
-        <li class="menu">
-          <div>아이콘</div>
-          <div>설정</div>
-        </li>
+        <div class="container">
+          <a href="./puzzle.html">
+            <li class="menu">
+              <i class="icon fa-2x fas fa-puzzle-piece"></i>
+              <div class="menu_item">퍼즐</div>
+            </li>
+          </a>
+        </div>
+        <div class="container">
+          <a href="./home.html">
+            <li class="menu">
+              <i class="icon fa-2x fas fa-home"></i>
+              <div class="menu_item">홈</div>
+            </li>
+          </a>
+        </div>
+        <div class="container">
+          <a href="./grouplist.html">
+            <li class="menu">
+              <i class="icon fa-2x fas fa-school"></i>
+              <div class="menu_item">참여 그룹</div>
+            </li>
+          </a>
+        </div>
+        <div class="container">
+          <a href="./settings.html">
+            <li class="menu">
+              <i class="icon fa-2x fas fa-user-cog"></i>
+              <div class="menu_item">설정</div>
+            </li>
+          </a>
+        </div>
       </ul>
     </footer>
+    <script src="./js/footer.js"></script>
   </body>
 </html>

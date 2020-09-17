@@ -2,8 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 body {
   height: 100vh;
 }
+
+/* main {
+  background-color: thistle;
+} */

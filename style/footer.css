@@ -6,13 +6,43 @@ ul.menu_box {
   justify-content: space-evenly;
 }
 
+.showing {
+  border-top: 4.5px solid #2ecc71;
+}
+
+div.container {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+div.container:hover {
+  opacity: 0.7;
+}
+
+div.container > a {
+  width: 100%;
+}
+
 li.menu {
-  background-color: #3498db;
+  width: 100%;
+  height: 70%;
+  background-color: #2ecc71;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  padding: 30px 30px;
+  padding: 25px 25px;
   margin: 30px 0px;
   border-radius: 12px;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i.icon {
+  margin-bottom: 15px;
 }

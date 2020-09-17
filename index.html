@@ -3,80 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>홈 | 온라인 공부방[온공]</title>
+    <title>로그인 | 온라인 공부방[온공]</title>
     <link href="./style/styles.css" rel="stylesheet" />
-    <link href="./style/header.css" rel="stylesheet" />
-    <link href="./style/footer.css" rel="stylesheet" />
-    <link href="./style/mainLayout.css" rel="stylesheet" />
+    <link href="./style/index.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <h1>온라인 공부방 : 온공</h1>
-    </header>
     <main>
-      <ul>
-        <li class="dawn">
-          <div class="title">
-            얼리버드 1반(5시)
-            <span>*참여자 현황 : 현재 인원 / 최대 인원</span>
-          </div>
-          <a href="/detail.html" class="description">상세</a>
-          <div class="enter">참여</div>
-        </li>
-        <li class="dawn">
-          <div class="title">
-            얼리버드 2반(6시)
-            <span>*참여자 현황 : 현재 인원 / 최대 인원</span>
-          </div>
-          <a href="/detail.html" class="description">상세</a>
-          <div class="enter">참여</div>
-        </li>
-        <li class="lunch">
-          <div class="title">
-            점심 1반(1시)
-            <span>*참여자 현황 : 현재 인원 / 최대 인원</span>
-          </div>
-          <a href="/detail.html" class="description">상세</a>
-          <div class="enter">참여</div>
-        </li>
-        <li class="night">
-          <div class="title">
-            올빼미 1반(11시)
-            <span>*참여자 현황 : 현재 인원 / 최대 인원</span>
-          </div>
-          <a href="/detail.html" class="description">상세</a>
-          <div class="enter">참여</div>
-        </li>
-        <li class="night">
-          <div class="title">
-            올빼미 2반(12시)
-            <span>*참여자 현황 : 현재 인원 / 최대 인원</span>
-          </div>
-          <a href="/detail.html" class="description">상세</a>
-          <div class="enter">참여</div>
-        </li>
-        ...무한 스크롤...
-      </ul>
+      <img src="./images/logo_square.png" alt="ongong_logo" class="logo" />
+      <input type="text" name="id_input" id="id_input" placeholder="Email..." />
+      <input
+        type="text"
+        name="pw_input"
+        id="pw_input"
+        placeholder="Password..."
+      />
+      <div class="submit_box">
+        <button class="sign_up" type="submit">회원가입</button>
+        <button class="sign_in" type="submit">로그인</button>
+      </div>
+      <button type="submit" class="forgot_password">Forgot Password?</button>
     </main>
-    <footer>
-      <ul class="menu_box">
-        <li class="menu">
-          <div>아이콘</div>
-          <div>퍼즐</div>
-        </li>
-        <li class="menu">
-          <div>아이콘</div>
-          <div>그룹 목록</div>
-        </li>
-        <li class="menu">
-          <div>아이콘</div>
-          <div>참여 그룹</div>
-        </li>
-        <li class="menu">
-          <div>아이콘</div>
-          <div>설정</div>
-        </li>
-      </ul>
-    </footer>
   </body>
 </html>

@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>얼리버드 1반 | 온라인 공부방[온공]</title>
+    <title>참여그룹 | 온라인 공부방[온공]</title>
     <link href="./style/styles.css" rel="stylesheet" />
     <link href="./style/header.css" rel="stylesheet" />
     <link href="./style/footer.css" rel="stylesheet" />
     <link href="./style/mainLayout.css" rel="stylesheet" />
-    <link href="./style/group.css" rel="stylesheet" />
+    <link href="./style/grouplist.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -18,34 +18,15 @@
   </head>
   <body>
     <header>
-      <h1><a href="./home.html">얼리버드 1반 (6시)</a></h1>
+      <h1><a href="./puzzle.html">참 여 그 룹</a></h1>
     </header>
     <main>
-      <div class="members_list_box">
-        <ul class="members_list">
-          <label for="members_list">동료 목록</label>
-          <li>유저1</li>
-          <li>유저2</li>
-          <li>유저3</li>
-          <li>유저4</li>
-          <li>유저5</li>
+      <div class="grouplist_box">
+        <h2 class="mini_title">현재 참여 중인 온라인 공부방</h3>
+        <ul>
+          <li type="1" class="join_group"><a href="./group.html">얼리버드 1반(6시)</a></li>
+          <li type="1" class="join_group"><a href="./group3.html">점심 1반(13시)</a></li>
         </ul>
-      </div>
-      <div class="process_board">
-        <div class="personal">
-          <h2 class="personal_title">나의 달성 현황</h2>
-          <div class="personal_box">
-            <div class="current_date">현재<br />날짜</div>
-            <img class="count_img" src="./images/count.png" alt="count_img" />
-          </div>
-        </div>
-        <div class="team">
-          <h2 class="team_title">팀 달성 현황</h2>
-          <div class="team_box">
-            <div class="current_date">현재<br />날짜</div>
-            <img class="count_img" src="./images/count.png" alt="count_img" />
-          </div>
-        </div>
       </div>
     </main>
     <footer>
@@ -67,7 +48,7 @@
           </a>
         </div>
         <div class="container">
-          <a href="./group.html">
+          <a href="./grouplist.html">
             <li class="menu">
               <i class="icon fa-2x fas fa-school"></i>
               <div class="menu_item">참여 그룹</div>

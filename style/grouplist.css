@@ -1,0 +1,18 @@
+.grouplist_box {
+  background: #2ecc71;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini_title {
+  margin-bottom: 50px;
+}
+
+.join_group {
+  margin-bottom: 30px;
+  font-size: 24px;
+}

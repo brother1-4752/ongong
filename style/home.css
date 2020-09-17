@@ -1,0 +1,49 @@
+main {
+  margin-top: 150px;
+}
+
+main > ul > li {
+  display: flex;
+}
+
+div.title,
+main > ul > li > a,
+.enter {
+  background-color: #2ecc71;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0px 15px 10px 0px;
+}
+
+div.title {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+main > ul > li > a.description,
+.enter {
+  transition: opacity 0.3s ease-in-out;
+}
+
+main > ul > li > a.description:hover,
+.enter:hover {
+  opacity: 0.7;
+}
+
+main > ul > li > div.title > div {
+  font-size: 15px;
+  position: absolute;
+  right: 15px;
+  font-weight: bold;
+}
+
+.almost_full {
+  color: #fc3823;
+  font-weight: bold;
+}
+
+/* 블루 : #3498db */
+/* 진한 그린 #3bdf7f */
+/* 연한 그린 #2ecc71 */

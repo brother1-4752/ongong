@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #2ecc71;
+  width: 60%;
+  height: 42%;
+  border-radius: 25px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 2%;
+}
+
+main > div {
+  margin-left: 25%;
+}
+
+footer {
+  width: 60%;
+  margin-bottom: 1%;
+}
+
+.submit_box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+
+.other_group,
+.join_group {
+  width: 47%;
+  padding: 5% 0px;
+  outline-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  border: 3px solid white;
+  background-color: #2ecc71;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other_group:hover,
+.join_group:hover {
+  background-color: white;
+  border: 3px solid #2ecc71;
+  color: #2ecc71;
+  opacity: 0.9;
+}

@@ -1,0 +1,16 @@
+.puzzle_box {
+  width: 70%;
+  height: 100%;
+  border: 5px solid #2ecc71;
+  border-radius: 25px;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2ecc71;
+}
+
+.puzzle_text {
+  color: #2ecc71;
+  font-size: 70px;
+}
