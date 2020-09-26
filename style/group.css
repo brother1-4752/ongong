@@ -1,46 +1,45 @@
 main {
-  margin-top: 8.3%;
-  height: 80%;
-  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  margin-top: 130px;
 }
 
 .members_list_box {
-  width: 12%;
+  width: 100%;
   height: 100%;
   position: fixed;
   left: 0;
-  margin-top: 8.3%;
+  font-size: 16px;
 }
 
 .members_list {
-  width: 100%;
-  height: 100%;
+  list-style: none;
+  position: fixed;
+  left: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  list-style: none;
 }
 
 label,
 ul.members_list > li {
   background-color: #2ecc71;
-  border-radius: 10px;
-  margin-bottom: 12px;
+  border-radius: 12px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 label {
-  width: 120px;
-  height: 60px;
-  margin-top: 5px;
+  width: 100px;
+  height: 50px;
 }
 
 ul.members_list > li {
-  width: 100px;
-  height: 50px;
+  width: 80px;
+  height: 40px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -53,18 +52,22 @@ ul.members_list > li:hover {
 
 .process_board {
   background-color: #2ecc71;
-  width: 85%;
-  height: 65%;
   position: absolute;
-  right: 2.5%;
-  top: 0;
-  display: flex;
-  align-items: center;
+  right: 15px;
+  width: 250px;
+  font-size: 27px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.personal {
+  margin-bottom: 30px;
 }
 
 .personal,
 .team {
   width: 100%;
+  padding-top: 25px;
 }
 
 .personal_title,
@@ -72,7 +75,7 @@ ul.members_list > li:hover {
   width: 100%;
   margin-bottom: 25px;
   text-align: center;
-  font-size: 45px;
+  font-size: 27px;
 }
 
 .personal_box,
@@ -83,18 +86,18 @@ ul.members_list > li:hover {
 }
 
 .current_date {
-  width: 200px;
-  height: 200px;
   border: 5px solid white;
   color: white;
   background-color: #2ecc71;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
 
 .count_img {
-  width: 250px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }

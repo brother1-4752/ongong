@@ -1,18 +1,26 @@
 .grouplist_box {
   background: #2ecc71;
-  width: 70%;
-  height: 100%;
+  width: 80%;
+  height: 120%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  border-radius: 15px;
+  padding-top: 50px;
 }
 
 .mini_title {
   margin-bottom: 50px;
+  font-size: 27px;
 }
 
 .join_group {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 21px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.join_group:hover {
+  opacity: 0.5;
 }

@@ -1,3 +1,7 @@
+.menu_item {
+  font-size: 15px;
+}
+
 ul.menu_box {
   position: fixed;
   bottom: 0;
@@ -11,8 +15,8 @@ ul.menu_box {
 }
 
 div.container {
-  width: 10%;
-  display: flex;
+  width: 80px;
+  height: 160px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -32,9 +36,9 @@ li.menu {
   height: 70%;
   background-color: #2ecc71;
   color: white;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
-  padding: 25px 25px;
+  padding: 25px;
   margin: 30px 0px;
   border-radius: 12px;
   list-style-type: none;

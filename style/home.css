@@ -1,9 +1,10 @@
 main {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 main > ul > li {
   display: flex;
+  font-size: 14px;
 }
 
 div.title,
@@ -11,14 +12,14 @@ main > ul > li > a,
 .enter {
   background-color: #2ecc71;
   border-radius: 15px;
-  padding: 15px;
+  padding: 20px;
   margin: 0px 15px 10px 0px;
 }
 
 div.title {
-  width: 700px;
+  width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
 }
 
@@ -33,10 +34,11 @@ main > ul > li > a.description:hover,
 }
 
 main > ul > li > div.title > div {
-  font-size: 15px;
+  font-size: 10px;
   position: absolute;
   right: 15px;
   font-weight: bold;
+  margin-top: 24px;
 }
 
 .almost_full {

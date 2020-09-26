@@ -14,3 +14,17 @@
 //     });
 //   }
 // };
+
+const current_join_number = document.querySelectorAll(".title div");
+const enter_btn = document.querySelectorAll(".enter");
+
+function handleEnter(e) {
+  alert("정원이 다 찼습니다");
+  e.preventDefault();
+}
+
+enter_btn[0].addEventListener("click", handleEnter);
+
+function init() {}
+
+init();

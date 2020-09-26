@@ -15,6 +15,7 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   </head>
   <body>
     <header>
@@ -25,12 +26,12 @@
         <div class="profile">
           <div class="profile_box">
             <i class="fas avartar fa-3x fa-user"></i>
-            <div>
-              <div>유저 닉네임</div>
+            <div style="font-size: 16px">
+              <div style="margin-bottom: 10px">유저 닉네임</div>
               <p>아이디</p>
             </div>
           </div>
-          <button class="profile_btn" type="submit">
+          <button class="profile_btn" type="submit" style="font-size: 10px">
             <i class="fas fa-3x fa-chevron-right"></i>
           </button>
         </div>
@@ -50,7 +51,13 @@
       </div>
       <div class="row3">
         <div>푸쉬 알림</div>
-        <div><i class="fas fa-3x fa-toggle-on"></i></div>
+        <div>
+          <i class="on off fas fa-3x fa-toggle-on" style="font-size: 39px"></i>
+          <i
+            class="off on fas fa-3x fa-toggle-off"
+            style="font-size: 39px; display: none"
+          ></i>
+        </div>
       </div>
     </main>
     <footer>
@@ -90,5 +97,11 @@
       </ul>
     </footer>
     <script src="./js/footer.js"></script>
+    <script src="./js/settings.js"></script>
+    <script>
+      $(".on").click(function () {
+        $(".off").toggle("slow");
+      });
+    </script>
   </body>
 </html>

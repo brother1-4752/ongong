@@ -7,26 +7,31 @@ body {
 
 main {
   background-color: #2ecc71;
-  width: 60%;
-  height: 42%;
-  border-radius: 25px;
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
   color: white;
-  font-size: 24px;
   font-weight: bold;
-  margin-top: 8%;
-  margin-bottom: 5%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  padding: 2%;
+  font-size: 20px;
+  padding: 10px;
+  margin: 60px;
 }
 
 main > div {
-  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main > div:nth-child(2),
+main > div:nth-child(4) {
+  letter-spacing: -2px;
 }
 
 footer {
-  width: 60%;
-  margin-bottom: 1%;
+  width: 80%;
 }
 
 .submit_box {
@@ -39,18 +44,18 @@ footer {
 .other_group,
 .join_group {
   width: 47%;
-  padding: 5% 0px;
+  padding: 15px;
   outline-style: none;
-  font-size: 14px;
   font-weight: bold;
   border: 3px solid white;
   background-color: #2ecc71;
-  border-radius: 12px;
+  border-radius: 15px;
   transition: all 0.3s ease-in-out;
-  font-size: 24px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .other_group:hover,
