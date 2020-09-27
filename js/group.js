@@ -9,14 +9,16 @@ function handleZoomDetail(e) {
   const container = e.target.parentNode;
   const ID = document.createElement("div");
   const PW = document.createElement("div");
+  const enter_zoom = document.querySelector(".enter_zoom");
   ID.classList.add(ID_CN);
   PW.classList.add(PW_CN);
   label_ID.appendChild(ID);
   label_PW.appendChild(PW);
-  ID.textContent = "527 611 2991";
+  ID.textContent = "915 7580 2862";
   PW.textContent = "1234";
   label_ID.style.display = "flex";
   label_PW.style.display = "flex";
+  enter_zoom.style.display = "flex";
 }
 
 zoom_btn.addEventListener("click", handleZoomDetail);
